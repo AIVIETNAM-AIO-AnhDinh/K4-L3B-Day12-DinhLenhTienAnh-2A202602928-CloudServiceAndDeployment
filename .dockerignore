@@ -4,3 +4,22 @@
 
 .git
 .gitignore
+
+# Secret — không bao giờ được nằm trong image
+.env
+.env.*
+
+# Môi trường ảo và cache của Python/công cụ
+.venv
+venv
+**/__pycache__
+**/*.pyc
+.pytest_cache
+.mypy_cache
+.ruff_cache
+
+# Không cần để chạy app
+tests
+screenshots
+*.md
+.DS_Store
